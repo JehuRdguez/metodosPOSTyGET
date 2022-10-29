@@ -24,7 +24,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<!-- Llamado a libreria ajax -->
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-	<script src="/APIREST_5TID1/assets/js/apiRest.js"></script>
+	<script src="/metodosPOSTyGET/assets/js/apiRest.js"></script>
 
 </head>
 <style type="text/css">
@@ -66,14 +66,9 @@
 			      </tr>
 			    </thead>
 			    <tbody id="tblUsers">
-			    	<tr>
-			    		<td>1</td>
-			    		<td>Pedro</td>
-			    		<td>ABCD123456HYJ</td>
-			    		<td>Pedro</td>
-			    		<td>1</td>
-			    	</tr>
-			      
+			    	<script>
+						getUsers();
+					</script>
 			    </tbody>
 			  </table>
 		</center>

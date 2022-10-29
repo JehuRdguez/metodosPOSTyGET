@@ -47,7 +47,7 @@
 
 	<!-- Llamado a libreria jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="/APIREST_5TID1/assets/js/apiRest.js"></script>
+	<script src="/metodosPOSTyGET/assets/js/apiRest.js"></script>
 
 	<title>API REST 4TID1</title>
 </head>
@@ -55,9 +55,8 @@
 	<div  id="tittle_1">	
 		<center><h1>Prueba 1: API REST <hr></h1></center>
 	</div>
-	<div id="login">
         
-		<!--<form action="/APIREST_5TID1/auth.php" method="POST">  -->
+		<form id="login">
 		<div id="params">
 			<div class="input-group">
 			    <span class="input-group-text">Usuario</span>
@@ -70,10 +69,9 @@
 			</div>
 		</div>
 		<div id="buttons">
-			<button type="submit" class="btn btn-success" onclick="login();">Log In</button>
+			<button type="submit" class="btn btn-success" onclick="login()">Log In</button>
 		</div>
-		<!--</form>-->
-	</div>
+		</form>
 </body>
 </html>
 
